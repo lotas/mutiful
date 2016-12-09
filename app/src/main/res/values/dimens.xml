@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="alert_activity_minwidth">320dp</dimen>
+    <dimen name="alert_activity_minheight">80dp</dimen>
+    <dimen name="preference_catalog_title_size">20sp</dimen>
+
+    <dimen name="footer_items_margin">6dp</dimen>
+
+    <dimen name="checkbox_padding">10dp</dimen>
+    <dimen name="checkbox_font_size">20sp</dimen>
+
+    <dimen name="button_font_size">24sp</dimen>
+
+    <dimen name="slider_tab_circle_size">16dp</dimen>
+
+
+    <!-- help pages -->
+    <dimen name="help_text_block_width">130dp</dimen>
+    <dimen name="help_text_header_font_size">22sp</dimen>
+    <dimen name="help_text_font_size">13sp</dimen>
+    <dimen name="help_text_1_1_margin">62dp</dimen>
+    <dimen name="help_text_1_2_margin">-25dp</dimen>
+    <dimen name="help_text_1_3_margin">67dp</dimen>
+    <dimen name="help_text_3_1_margin">15dp</dimen>
+    <dimen name="help_text_3_2_margin">84dp</dimen>
+
+    <!-- for both tabs to have test button on the same level -->
+    <dimen name="test_it_btn_margin_top">148dp</dimen>
+
+</resources>

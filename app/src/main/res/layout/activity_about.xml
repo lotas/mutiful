@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="space.eya.mutiful.AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="20dp"
+        android:text=""
+        style="@style/AboutMessageText"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textColorLink="@color/checkbox_checked_border_color"
+        />
+
+</RelativeLayout>

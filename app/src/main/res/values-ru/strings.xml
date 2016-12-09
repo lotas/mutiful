@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="app_name">Замолчатель</string>
+  <string name="trigger_text1">ты где пропал</string>
+  <string name="trigger_text2">Выключи громкость</string>
+  <string name="alert_test_settings">Проверить</string>
+  <string name="title_activity_alert_test">Проверка оповещения</string>
+  <string name="alert_btn_ok">Закрыть</string>
+  <string name="alert_btn_mute">Выключить</string>
+  <string name="alert_info_text">Сообщение от</string>
+  <string name="alert_test_settings_demo_string">Сообщение &lt;ты где пропал?&gt; полученно от &lt;017588993322&gt;</string>
+  <string name="alert_info_loud_format">Сообщение от\n %1$s\n\"%2$s\"\nвключило громкость вашего телефона</string>
+  <string name="alert_info_mute_format">Сообщение от\n %1$s\n\"%2$s\"\nвыключило громкость вашего телефона</string>Э
+  <string name="share_this_app">Не пропусти больше мой звонок. Установи себе Замолчатель - https://goo.gl/Z815s6</string>
+  <string name="share_extra">Попробуй приложение Замолчатель</string>
+  <!--help-->
+  <string name="title_activity_help">Помощь</string>
+  <string name="title_help_section1">ГРОМКО</string>
+  <string name="title_help_section2">ТИХО</string>
+  <string name="title_help_section3">Окно оповещения</string>
+  <string name="help_alert_window">Вы увидите это окно после получения SMS, содержащего кодовое слово</string>
+  <string name="help_alert_dismiss">После нажматия на кнопку ЗАКРЫТЬ настройки звука будут восстановлены</string>
+  <string name="help_alert_title">Окно оповещения</string>
+  <string name="help_loud_title">ГРОМКО</string>
+  <string name="help_loud_trigger">Все СМС с этим кодовым словом включат громкий режим</string>
+  <string name="help_loud_vibrate">Если включено, сработает вибро</string>
+  <string name="help_loud_music">Если включено, будет воспроизведена мелодия звонка</string>
+  <string name="help_mute_title">ТИХО</string>
+  <string name="help_mute_trigger">Все входящие SMS с этим кодовым словом будут переводить телефон в тихий режим</string>
+  <!--menu items-->
+  <string name="menu_help">Помощь</string>
+  <string name="menu_about">О Программе</string>
+  <string name="menu_share">Расскажите друзьям</string>
+  <string name="title_tab1">ГРОМКО</string>
+  <string name="title_tab2">ТИХО</string>
+  <string name="title_activity_main">Замолчатель</string>
+  <string name="title_activity_about">О Программе</string>
+  <string name="share_to">Отправить через:</string>
+  <string name="labelTriggerText">Кодовое слово</string>
+  <string name="checkbox_audio">Музыка</string>
+  <string name="checkbox_vibrate">Вибро</string>
+
+ <string name="about_text"><![CDATA[
+    Программа помогает найти ваш телефон, находящийся в беззвучном режиме, или дозвониться до кого-то, кто забыл включить громкость.
+    \n\n
+    Она также позволяет перевести телефон в беззвучный режим, если вы оставили его там, где он будет мешать другиим.
+    \n\n\n
+    Разработка: Ярослав Курмыза\n
+    <a href="http://yaraslav.com">yaraslav.com</a>\n
+    \n
+    UI/UX: Игорь Ижик\n
+    <a href="http://izhik.com">izhik.com</a>\n
+    ]]></string>
+    <string name="checkbox_mute_alarm">Выкл будильник</string>
+    <string name="checkbox_mute_music">Выкл музыку</string>
+    <string name="checkbox_mute_other">Выкл другие</string>
+    <string name="checkbox_mute_ring">Выкл звонок</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="help_text_header_font_size">22sp</dimen>
+    <dimen name="help_text_font_size">12sp</dimen>
+
+    <dimen name="checkbox_font_size">18sp</dimen>
+
+    <dimen name="button_font_size">22sp</dimen>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+
+    <color name="checkbox_text_color">#FFe7ee25</color>
+    <color name="checkbox_unchecked_text_color">#FFFFFFFF</color>
+    <color name="checkbox_unchecked_border_color">#FF545257</color>
+    <color name="checkbox_checked_border_color">#FFe7ee25</color>
+
+    <color name="yellow_btn_bg">#FFe7ee25</color>
+    <color name="yellow_btn_ripple">#ff939a1d</color>
+    <color name="yellow_btn_txt">#FF262329</color>
+
+    <color name="inactive_checkbox">#FF514f53</color>
+
+    <color name="text_color">#fffff7ff</color>
+
+    <color name="footer_separator_color">#ffa6a1a6</color>
+
+    <color name="footer_button_color">#fffdf6fd</color>
+
+    <color name="alert_window_background">#EE000000</color>
+
+    <color name="tab_active_text">#FFFFFFFF</color>
+    <color name="tab_inactive_text">#99FFFFFF</color>
+</resources>

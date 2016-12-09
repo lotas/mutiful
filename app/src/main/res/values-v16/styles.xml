@@ -1,0 +1,84 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:color">#FFFF00FF</item>
+
+        <item name="android:checkboxStyle">@style/AppCheckboxStyle</item>
+        
+        <item name="actionBarItemBackground">@drawable/selectable_background_app</item>
+        <!--<item name="actionBarTabStyle">@style/ActionBarTabStyle.App</item>-->
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.App</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.App</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_app</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_app</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.App</item>
+    </style>
+
+    <style name="AppThemeTransparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/alert_window_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AppCheckboxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/yellow_button</item>
+        <item name="android:background">@drawable/logo</item>
+        <item name="android:textColor">@color/checkbox_color</item>
+        <item name="android:checkMark">@drawable/checked</item>
+        <item name="android:drawableRight">@drawable/checkbox_fancy</item>
+
+        <item name="android:paddingLeft">30sp</item>
+        <item name="android:paddingRight">20sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="HelpTitle">
+        <item name="android:textSize">@dimen/help_text_header_font_size</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="HelpText">
+        <item name="android:textSize">@dimen/help_text_font_size</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="AlertMessageText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="AboutMessageText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="StyleButton"  parent="@android:style/TextAppearance">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/button_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="EditTextAppTheme" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/apptheme_edit_text_holo_dark</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+</resources>

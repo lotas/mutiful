@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Mutiful</string>
+
+    <string name="trigger_text1">where are you</string>
+    <string name="trigger_text2">shush</string>
+
+    <string name="checkbox_vibrate">Vibrate</string>
+    <string name="checkbox_audio">Play music</string>
+
+    <string name="checkbox_mute_ring">Mute ring</string>
+    <string name="checkbox_mute_alarm">Mute alarm</string>
+    <string name="checkbox_mute_music">Mute music</string>
+    <string name="checkbox_mute_other">Mute other</string>
+
+    <string name="alert_test_settings">Test it</string>
+
+    <string name="title_activity_alert_test">Alert Test</string>
+
+    <string name="alert_btn_ok">DISMISS</string>
+    <string name="alert_btn_mute">Mute</string>
+    <string name="alert_info_text">Incoming alert from</string>
+    <string name="alert_test_settings_demo_string"><![CDATA[Message <Where are you> received from <017588993322>]]></string>
+
+    <string name="alert_info_mute_format"><![CDATA[New message from\n %1$s \n\"%2$s\"\n muted your phone]]></string>
+    <string name="alert_info_loud_format"><![CDATA[New message from\n %1$s \n\"%2$s\"\n made your phone loud]]></string>
+
+
+
+    <string name="title_activity_main">Mutiful</string>
+
+
+    <string name="title_tab1">GET LOUD</string>
+    <string name="title_tab2">MUTE</string>
+    <string name="labelTriggerText">Keyword</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="about_text"><![CDATA[
+        Mutiful helps you find your phone when it\’s on silent.
+        \n\n
+        It also helps mute your phone if you left it somewhere where it may disturb people or if you  simply don\’t want them to hear your Katy Perry ringtone.
+        \n\n\n
+        Developed by Yaraslau Kurmyza\n
+        <a href="http://yaraslav.com">yaraslav.com</a>\n
+        \n
+        UI/UX by Igor Izhik\n
+        <a href="http://izhik.com">izhik.com</a>\n
+    ]]></string>
+
+
+    <!-- share -->
+    <string name="share_to">Share app to:</string>
+    <string name="share_this_app">Never miss a call from me. Install this Mutiful app: https://goo.gl/Z815s6</string>
+    <string name="share_extra">Check out Mutiful app</string>
+
+    <!-- help -->
+
+    <string name="title_activity_help">Help</string>
+    <string name="title_help_section1">Get Loud</string>
+    <string name="title_help_section2">Mute</string>
+    <string name="title_help_section3">Alert window</string>
+    <string name="help_alert_window">This window is displayed on your device 10 seconds upon receivng an SMS containing your keywords</string>
+    <string name="help_alert_dismiss">After you tap on DISMISS your sound settings will be restored</string>
+    <string name="help_alert_title">Alert window</string>
+    <string name="help_loud_title">Get loud</string>
+    <string name="help_loud_trigger">All incoming SMS messages containing the entered here will turn up the volume on your phone, even if it\'s on silent.</string>
+    <string name="help_loud_vibrate">This will make your phone vibrate for 5 seconds</string>
+    <string name="help_loud_music">This will play your default ringtone for 10 seconds at full volume.</string>
+    <string name="help_mute_title">Mute</string>
+    <string name="help_mute_trigger">All incoming SMS messages containing the text entered here will mute your phone.</string>
+
+    <!-- menu items -->
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_share">Share this app</string>
+
+</resources>

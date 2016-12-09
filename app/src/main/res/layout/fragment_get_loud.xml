@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    tools:context="space.eya.mutiful.MainActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="4dp"
+        android:text="@string/labelTriggerText"
+        android:id="@+id/getLoud_triggerText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/getLoudTrigger"
+        android:textAlignment="center"
+        style="@style/EditTextAppTheme"
+        android:layout_below="@+id/getLoud_triggerText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:inputType="textShortMessage|textNoSuggestions"
+
+        android:nextFocusUp="@id/getLoudTrigger"
+        android:nextFocusLeft="@id/getLoudTrigger"
+         />
+
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_checkbox"
+
+        android:text="@string/checkbox_vibrate"
+        android:id="@+id/getLoud_vibrate"
+
+        android:onClick="onCheckboxClick"
+
+        android:layout_below="@+id/getLoudTrigger"
+        android:layout_marginTop="20dp"
+         />
+
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/yellow_checkbox"
+
+        android:text="@string/checkbox_audio"
+        android:id="@+id/getLoud_playMusic"
+
+        android:onClick="onCheckboxClick"
+
+
+        android:layout_below="@+id/getLoud_vibrate"
+        android:layout_marginTop="14dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="testAlertAction"
+
+        android:background="@drawable/yellow_button"
+        style="@style/StyleButton"
+        android:text="@string/alert_test_settings"
+        android:id="@+id/button"
+        android:layout_marginTop="@dimen/test_it_btn_margin_top"
+        android:layout_below="@+id/getLoudTrigger"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
